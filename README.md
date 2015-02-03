@@ -53,9 +53,9 @@ Paste your clipboard from earlier. Do not add any quotation signs.
 
 ### Volumes
 
-Add a volume `/root/.ssh`:`/.ssh`
+Add a volume `/.ssh`:`/root/.ssh`
 
-![](http://cl.ly/image/2n093G1c0u47/download/Screen%20Shot%202015-02-02%20at%2023.23.29.png)
+![](http://cl.ly/image/1A022Z0m1n2t/download/Screen%20Shot%202015-02-03%20at%2015.40.06.png)
 
 Click on **Create and deploy**
 
@@ -66,7 +66,7 @@ Get the node IP from Tutum
 ![](http://cl.ly/image/2t373J2i2f1b/Screen%20Shot%202015-02-02%20at%2023.29.02.png)
 
 ```
-$ ssh -i ~/tutum -v root@104.236.69.138
+$ ssh -i ~/tutum root@104.236.69.138
 The authenticity of host '104.236.69.138 (104.236.69.138)' can't be established.
 RSA key fingerprint is 4b:22:71:39:53:4a:88:51:4b:a7:2e:ed:03:dd:a3:7f.
 Are you sure you want to continue connecting (yes/no)? yes
