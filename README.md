@@ -1,3 +1,7 @@
+### This is now deprecated!
+
+Please use this instead: [http://github.com/tutumcloud/authorizedkeys](http://github.com/tutumcloud/authorizedkeys)
+
 # docker-authkeys
 
 Container image to copy SSH public key to the host's /.ssh/authorized_keys file
